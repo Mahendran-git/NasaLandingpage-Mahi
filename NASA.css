@@ -1,21 +1,19 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-/* Logo Styling */
+
 .logo {
-    height: 80px;        /* Increased height to make the logo slightly bigger */
-    width: auto;         /* Keeps the aspect ratio intact */
-    vertical-align: middle;  /* Ensures logo aligns vertically */
-    border-radius: 15px; /* Adds rounded corners to the logo */
-    transition: transform 0.3s ease; /* Optional: Add smooth hover effect */
+    height: 80px;        
+    width: auto;         
+    vertical-align: middle;  
+    border-radius: 15px; 
+    transition: transform 0.3s ease; 
 }
 
-/* Optional: Hover effect */
 .logo:hover {
-    transform: scale(1.1); /* Slightly enlarges the logo when hovered */
+    transform: scale(1.1); 
 }
 
 
@@ -95,8 +93,8 @@
     background: #000000;
     color: #ffffff;
   }
-  
-  /* Interactive Animations */
+
+
   .parallax .content h2 {
     font-size: 3rem;
     animation: fadeInDown 1.5s ease-in-out;
@@ -129,10 +127,9 @@
     }
   }
   
-  /* Unique Section Styling */
 .unique-section {
     background-color: #1a1a2e;
-    padding: 3rem 0; /* Adding padding around the section */
+    padding: 3rem 0; 
   }
   
   .unique-section h2 {
@@ -143,16 +140,16 @@
   .box-container {
     display: flex;
     justify-content: center;
-    gap: 2rem; /* Increased gap between boxes */
-    padding: 0 1rem; /* Add padding to avoid touching screen edges on small devices */
+    gap: 2rem; 
+    padding: 0 1rem; 
   }
   
   .box {
     background: rgba(0, 0, 0, 0.8);
     color: #ffffff;
     padding: 1.5rem;
-    width: 220px; /* Slightly increased width */
-    height: 220px; /* Slightly increased height */
+    width: 220px; 
+    height: 220px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,8 +163,6 @@
     background: #454545;
   }
   
-  
-  /* Contact Section */
   .contact-section {
     background-color: #1e1e1e;
     color: #ffffff;
